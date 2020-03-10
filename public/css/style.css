@@ -1,0 +1,9 @@
+.asd{
+    position: absolute;
+    background: #ffffff url("/images/meme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+    left: 5vw;
+    height: 90vh;
+}
