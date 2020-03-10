@@ -19,14 +19,17 @@ class App < Roda
   plugin :view_options
   DB = Sequel.connect("sqlite:///#{File.expand_path('./db/exchanges.db', __dir__)}")
   require_relative 'models/flat'
-  # require_relative 'models/status'
+  require_relative 'models/house'
+  require_relative 'models/region'
+  require_relative 'models/wanted_floor'
+  require_relative 'models/wanted_region'
 
   include ContractHelper
 
   #opts[:flats] = Flat
   # opts[:statuses] = Status
   require_relative 'routes/home_page_route'
-  # require_relative 'routes/notes_route'
+  require_relative 'routes/flats_route'
   # require_relative 'routes/closest_dates_route'
   # require_relative 'routes/invites_route'
 

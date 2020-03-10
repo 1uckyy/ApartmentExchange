@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b43517-a064-432c-9042-010893531566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/flat.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/house.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/region.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/wanted_floor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/wanted_region.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/flats_route.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/flats/flats.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/flats/flats_partial.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/flat.rb" beforeDir="false" afterPath="$PROJECT_DIR$/models/flat.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/home_page_route.rb" beforeDir="false" afterPath="$PROJECT_DIR$/routes/home_page_route.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="ERB File" />
         <option value="CSS File" />
         <option value="Ruby File" />
+        <option value="ERB File" />
       </list>
     </option>
   </component>
@@ -55,7 +56,7 @@
       <updated>1583097730237</updated>
       <workItem from="1583097739984" duration="1889000" />
       <workItem from="1583131943619" duration="9478000" />
-      <workItem from="1583833779937" duration="17685000" />
+      <workItem from="1583833779937" duration="23458000" />
     </task>
     <servers />
   </component>
