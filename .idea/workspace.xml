@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b43517-a064-432c-9042-010893531566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/0001_create_table.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/0002_create_table.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/0003_create_table.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/0004_create_table.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/0005_create_table.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/home_page_route.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/home_page/home_page.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/flat.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/house.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/region.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/wanted_floor.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/wanted_region.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/first-route.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/exchanges.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.erb" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="ERB File" />
-        <option value="Ruby File" />
         <option value="CSS File" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -48,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruby/Timetable-d9453fc22398f7a0c57da9e09d04980b0cfe8baf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruby/Timetable-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -65,7 +55,7 @@
       <updated>1583097730237</updated>
       <workItem from="1583097739984" duration="1889000" />
       <workItem from="1583131943619" duration="9478000" />
-      <workItem from="1583833779937" duration="14421000" />
+      <workItem from="1583833779937" duration="17685000" />
     </task>
     <servers />
   </component>
@@ -83,10 +73,10 @@
     </state>
     <state x="477" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1024.-60.1024.728@0.0.1920.1040" timestamp="1583137817776" />
     <state x="477" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583841234854" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1583853147012">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1583855947014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583853147012" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583855947014" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583132160419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
